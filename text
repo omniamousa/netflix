@@ -1,0 +1,39 @@
+1- count the number of TV shows and movies separately and compare between them (which is more).
+
+Start
+1. Load the Netflix dataset
+2. Access the 'type' column
+3. Count how many times 'Movie' appears
+4. Count how many times 'TV Show' appears
+5. Print the count of each
+6. Compare:
+   - If Movie count > TV Show count → print "More Movies"
+   - If TV Show count > Movie count → print "More TV Shows"
+   - Else → print "Equal number of Movies and TV Shows"
+End
+
+
+2- iterate through the rating column of the dataset and count how many times the rating is (TV-MA).
+
+Start
+1. Load the dataset
+2. Access the 'rating' column
+3. Initialize a counter to 0
+4. For each row in the 'rating' column:
+    - If the value is 'TV-MA':
+        - Increase the counter by 1
+5. Print the final value of the counter as the number of TV-MA ratings
+End
+
+
+3- filter the dataset to only include movies released after 2015.
+
+Start
+1. Load the dataset
+2. Access the 'type' and 'release_year' columns
+3. Create a new dataset that includes only rows where:
+    - type is 'Movie'
+    - release_year is greater than 2015
+4. Store the result in a new variable
+5. Print or display the filtered dataset (or count the number of rows if needed)
+End

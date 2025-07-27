@@ -11,8 +11,8 @@ if type_counts['Movie'] > type_counts.get('TV Show'):
     print("there're more movies than tv shows")
 elif type_counts['Movie'] < type_counts.get('TV Show'):
     print("there're more tv shows than movies")
-else: 
-    print("movies and tv shows are the same num") 
+else:
+    print("movies and tv shows are the same num")
 
 print("_" * 70)
 
